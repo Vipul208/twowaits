@@ -1,0 +1,7 @@
+c=float(input("Cost price: ")
+s=float(input("Selling price: ")
+p=((s-c)/c)*100
+print("profit %: ",p)
+i=float(p+5)
+n=(i*c)/100
+print("After increasing 5% profit, selling price would be: ",n+c)
