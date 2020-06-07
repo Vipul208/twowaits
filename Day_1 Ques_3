@@ -1,0 +1,6 @@
+a=int(input("First no: "))
+b=int(input("Second no: "))
+a=a+b
+b=a-b
+a=a-b
+print(f'After swap first value is {a} and secon value is {b}')
