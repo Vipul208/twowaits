@@ -1,0 +1,21 @@
+a=int(input("No of runs scored by 1 plyer in 60 balls: ")
+b=int(input("No of runs scored by 2 plyer in 60 balls: ")
+c=int(input("No of runs scored by 3 plyer in 60 balls: ")
+s1=(a/60)*100
+s2=(b/60)*100
+s1=(c/60)*100
+print("Strike rate of 1 player is : ",s1)
+print("Strike rate of 2 player is : ",s2)
+print("Strike rate of 3 player is : ",s3)
+r1=int((s1*120)/100)
+r2=int((s2*120)/100)
+r3=int((s3*120)/100)
+print("If 60 balls played more then runs of 1 player is : ",r1)
+print("If 60 balls played more then runs of 2 player is : ",r2)
+print("If 60 balls played more then runs of 3 player is : ",r3)
+si1=int(a/60)
+si2=int(b/60)
+si3=int(c/60)
+print("Maximum six hit possible by 1 player is : ",si1)
+print("Maximum six hit possible by 1 player is : ",si2)
+print("Maximum six hit possible by 1 player is : ",si3)
